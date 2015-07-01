@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a20ea59a-9fb8-4f28-a3fa-ab0797cb936d" ChangeDateTime="07/01/2015 02:18:42">
+    <Property Name="ElementName" Value="[dbo].[Clientes].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCliente" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="08a16f8d-fd2c-47ee-879c-53ef8071af25" ChangeDateTime="07/01/2015 02:18:54">
+    <Property Name="ElementName" Value="[dbo].[Clientes].[IdCliente]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e55ec2d2-1f69-428d-8675-d1f0d5ac8bce" ChangeDateTime="07/01/2015 02:24:26">
+    <Property Name="ElementName" Value="[dbo].[FK_Contas_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Contas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Contas_Clientes]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b956faa0-9f74-4616-9c84-032b3e8de700" ChangeDateTime="07/01/2015 02:33:09">
+    <Property Name="ElementName" Value="[dbo].[Transacoes].[Valor]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Transacoes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ValorDebito" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1532a745-8998-4c50-964d-f14ba46cf341" ChangeDateTime="07/01/2015 02:34:10">
+    <Property Name="ElementName" Value="[dbo].[Transacoes].[SaldoAnterior]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Transacoes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SaldoContaAnterior" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb8bc6e0-d6c8-4799-a67c-845a43cc825d" ChangeDateTime="07/01/2015 02:34:13">
+    <Property Name="ElementName" Value="[dbo].[Transacoes].[Saldo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Transacoes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SaldoConta" />
+  </Operation>
+</Operations>
