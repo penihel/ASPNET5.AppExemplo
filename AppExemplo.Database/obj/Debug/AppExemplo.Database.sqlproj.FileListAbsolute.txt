@@ -1,5 +1,0 @@
-C:\VSCODE\Github\ASPNET5.AppExemplo\AppExemplo.Database\bin\Debug\AppExemplo.Database.dacpac
-C:\VSCODE\Github\ASPNET5.AppExemplo\AppExemplo.Database\bin\Debug\AppExemplo.Database.dll
-C:\VSCODE\Github\ASPNET5.AppExemplo\AppExemplo.Database\bin\Debug\AppExemplo.Database.pdb
-C:\VSCODE\Github\ASPNET5.AppExemplo\AppExemplo.Database\obj\Debug\AppExemplo.Database.dll
-C:\VSCODE\Github\ASPNET5.AppExemplo\AppExemplo.Database\obj\Debug\AppExemplo.Database.pdb

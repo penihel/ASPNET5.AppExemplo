@@ -2,10 +2,8 @@
 Aplicativo simples apenas para exemplificar sugestões de boas práticas com ASPNET 5 e SPA
 Contém exemplos dos seguintes tópicos
 
-- [ ] Visual Studio 2015
-- [ ] SQL Server 2014
+- [ ] EntityFramework 7 Code First
 - [ ] DDD
-- [ ] EntityFramework 7 Database First
 - [ ] SOLID
 - [ ] Dependence Injection
 - [ ] ASP.NET 5
