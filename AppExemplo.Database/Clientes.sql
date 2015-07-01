@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Clientes]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Nome] NVARCHAR(250) NOT NULL, 
+    [Documento] NVARCHAR(50) NOT NULL, 
+    [DataCriacao] DATETIME NOT NULL DEFAULT GETDATE()
+)
