@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace AppExemplo.Domain.Core.Repository
 {
-    public interface IRepository<TEntity,TKey>  
+    public interface IRepository<TEntity, TKey>
         where TEntity : IEntity<TKey>
     {
         TEntity GetById(TKey key);
