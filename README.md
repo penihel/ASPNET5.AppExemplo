@@ -5,7 +5,7 @@ Contém exemplos dos seguintes tópicos
 - [ ] Visual Studio 2015
 - [ ] SQL Server 2014
 - [ ] DDD
-- [ ] EntityFramework 7 Database First
+- [ ] EntityFramework 6 POCO Reverse Code First
 - [ ] SOLID
 - [ ] Dependence Injection
 - [ ] ASP.NET 5
