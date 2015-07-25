@@ -1,11 +1,8 @@
-﻿using AppExemplo.Domain.Cadastro.FilterEntity;
+﻿using AppExemplo.Data.Core.Repository;
+using AppExemplo.Domain.Cadastro.FilterEntity;
 using AppExemplo.Domain.Cadastro.Repository;
 using System;
-using System.Linq;
-using System.Linq.Expressions;
-using AppExemplo.Data.Core.Repository;
 using System.Data.Entity;
-using AppExemplo.Domain.Cadastro.FilterEntity;
 
 namespace AppExemplo.Data.Cadastro.Repository
 {
