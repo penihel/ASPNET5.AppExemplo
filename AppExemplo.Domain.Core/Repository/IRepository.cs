@@ -1,17 +1,22 @@
 ﻿using AppExemplo.Domain.Core.Entity;
-using System;
-using System.Linq;
-using System.Linq.Expressions;
+using AppExemplo.Domain.Core.FilterEntity;
+using System.Collections.Generic;
 
 namespace AppExemplo.Domain.Core.Repository
 {
-    public interface IRepository<TEntity, TKey>
+    public interface IRepository<TEntity, TFilterEntity, TKey> 
+        where TKey : struct
         where TEntity : IEntity<TKey>
+        where TFilterEntity : IFilterEntity<TKey>
     {
-        TEntity GetById(TKey key);
-        TEntity[] GetAll();
-        IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression);
-        void Save(TEntity entity);
+        void Insert(TEntity entity);
+        void Update(TEntity entity);
         void Delete(TEntity entity);
+        TEntity GetById(TKey key);
+
+
+        IList<TEntity> GetAll();
+        IList<TEntity> Query(TFilterEntity filter);
+        
     }
 }
