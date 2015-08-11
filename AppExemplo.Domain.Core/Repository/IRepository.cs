@@ -15,7 +15,7 @@ namespace AppExemplo.Domain.Core.Repository
         TEntity GetById(TKey key);
 
 
-        IList<TEntity> GetAll();
+        
         IList<TEntity> Query(TFilterEntity filter);
         
     }
