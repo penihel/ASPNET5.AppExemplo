@@ -1,6 +1,7 @@
 ﻿using AppExemplo.Domain.Core.Entity;
 using AppExemplo.Domain.Core.FilterEntity;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AppExemplo.Domain.Core.Repository
 {

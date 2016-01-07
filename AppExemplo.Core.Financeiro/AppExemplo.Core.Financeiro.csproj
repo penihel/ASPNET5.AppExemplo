@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82B20D60-2C85-407B-B4E2-6C5108CE8597}</ProjectGuid>
+    <ProjectGuid>{7F4B299E-E4D0-4ACC-BC23-B4537F41F525}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AppExemplo.Domain.Core</RootNamespace>
-    <AssemblyName>AppExemplo.Domain.Core</AssemblyName>
+    <RootNamespace>AppExemplo.Core.Financeiro</RootNamespace>
+    <AssemblyName>AppExemplo.Core.Financeiro</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,27 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Entity\EntityBase.cs" />
-    <Compile Include="Entity\IEntity.cs" />
-    <Compile Include="FilterEntity\FilterEntityBase.cs" />
-    <Compile Include="FilterEntity\IFilterEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\IRepository.cs" />
-    <Compile Include="Service\IDeletable.cs" />
-    <Compile Include="Service\IInsertable.cs" />
-    <Compile Include="Service\IQueryable.cs" />
-    <Compile Include="Service\IService.cs" />
-    <Compile Include="Service\IUpdateable.cs" />
-    <Compile Include="Service\ServiceBase.cs" />
-    <Compile Include="Specificaton\AndSpecification.cs" />
-    <Compile Include="Specificaton\CompositeSpecification.cs" />
-    <Compile Include="Specificaton\ExpressionSpecification.cs" />
-    <Compile Include="Specificaton\ISpecificaton.cs" />
-    <Compile Include="Specificaton\NotSpecification.cs" />
-    <Compile Include="Specificaton\OrSpecification.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
