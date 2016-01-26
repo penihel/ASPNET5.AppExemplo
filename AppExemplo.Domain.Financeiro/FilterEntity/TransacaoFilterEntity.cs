@@ -5,6 +5,7 @@ namespace AppExemplo.Domain.Financeiro.FilterEntity
 {
     public class TransacaoFilterEntity : FilterEntityBase<Guid>
     {
+        public string Identificador { get; set; }
 
     }
 }
