@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{de037ffe-8054-407e-b640-85169b7429af}</ProjectGuid>
+    <ProjectGuid>{DE037FFE-8054-407E-B640-85169B7429AF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AppExemplo.Domain.Financeiro</RootNamespace>
@@ -35,10 +35,31 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\AppExemplo.Core.Financeiro\AppExemplo.Core.Financeiro.csproj">
+      <Project>{7f4b299e-e4d0-4acc-bc23-b4537f41f525}</Project>
+      <Name>AppExemplo.Core.Financeiro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppExemplo.Core\AppExemplo.Core.csproj">
+      <Project>{3c1850b1-3424-4a18-a35b-c48da6dc04b1}</Project>
+      <Name>AppExemplo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppExemplo.Domain.Core\AppExemplo.Domain.Core.csproj">
+      <Project>{82b20d60-2c85-407b-b4e2-6c5108ce8597}</Project>
+      <Name>AppExemplo.Domain.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entity\ContaEntity.cs" />
+    <Compile Include="Entity\TransacaoEntity.cs" />
+    <Compile Include="FilterEntity\TransacaoFilterEntity.cs" />
+    <Compile Include="FilterEntity\ContaFilterEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ITransacaoRepository.cs" />
+    <Compile Include="Repository\IContaRepository.cs" />
+    <Compile Include="Service\ContaService.cs" />
+    <Compile Include="Service\Interface\ITransacaoService.cs" />
+    <Compile Include="Service\Interface\IContaService.cs" />
+    <Compile Include="Service\TransacaoService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -48,5 +69,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>

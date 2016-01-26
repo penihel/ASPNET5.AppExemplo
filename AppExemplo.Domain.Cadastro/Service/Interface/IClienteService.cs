@@ -1,4 +1,5 @@
 ﻿using System;
+using AppExemplo.Domain.Cadastro.Entity;
 using AppExemplo.Domain.Cadastro.FilterEntity;
 using AppExemplo.Domain.Core.Service;
 

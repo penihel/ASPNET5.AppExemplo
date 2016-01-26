@@ -1,7 +1,7 @@
-﻿using AppExemplo.Domain.Core.Entity;
-using System;
+﻿using System;
+using AppExemplo.Domain.Core.Entity;
 
-namespace AppExemplo.Domain.Cadastro.FilterEntity
+namespace AppExemplo.Domain.Cadastro.Entity
 {
     public class ClienteEntity : EntityBase<Guid>
     {

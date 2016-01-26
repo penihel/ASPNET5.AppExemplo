@@ -117,10 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DuplicatedEntity" xml:space="preserve">
-    <value>{0} já existe. Não é possível inserir</value>
-  </data>
-  <data name="EntityNotExists" xml:space="preserve">
-    <value>{0} não existe. Não é possível alterar</value>
+  <data name="ContaEntity" xml:space="preserve">
+    <value>Contas</value>
   </data>
 </root>

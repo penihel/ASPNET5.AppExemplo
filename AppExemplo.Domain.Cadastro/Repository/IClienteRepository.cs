@@ -3,6 +3,7 @@
 using AppExemplo.Domain.Cadastro.FilterEntity;
 using AppExemplo.Domain.Core.Repository;
 using System;
+using AppExemplo.Domain.Cadastro.Entity;
 
 namespace AppExemplo.Domain.Cadastro.Repository
 {

@@ -4,6 +4,7 @@ using AppExemplo.Domain.Cadastro.Repository;
 using System;
 using System.Linq;
 using System.Data.Entity;
+using AppExemplo.Domain.Cadastro.Entity;
 
 namespace AppExemplo.Data.Cadastro.Repository
 {

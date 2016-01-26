@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AppExemplo.Core;
+using AppExemplo.Domain.Cadastro.Entity;
 using AppExemplo.Domain.Cadastro.FilterEntity;
 using AppExemplo.Domain.Cadastro.Repository;
 using AppExemplo.Domain.Cadastro.Service.Interface;
@@ -117,7 +118,7 @@ namespace AppExemplo.Domain.Cadastro.Service
 
             if (existingEntity == null)
                 throw new ArgumentException(
-                    string.Format(Messages.EntityNotExistis,
+                    string.Format(Messages.EntityNotExists,
                         AppExemplo.Core.Cadastro.Messages.ClienteEntity), nameof(entity));
         }
 
@@ -142,7 +143,7 @@ namespace AppExemplo.Domain.Cadastro.Service
 
             if (existingEntity == null)
                 throw new ArgumentException(
-                    string.Format(Messages.EntityNotExistis,
+                    string.Format(Messages.EntityNotExists,
                         AppExemplo.Core.Cadastro.Messages.ClienteEntity), nameof(entity));
         }
     }

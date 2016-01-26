@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AppExemplo.Core {
+namespace AppExemplo.Core.Financeiro {
     using System;
     using System.Reflection;
     
@@ -40,7 +40,7 @@ namespace AppExemplo.Core {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AppExemplo.Core.Messages", typeof(Messages).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AppExemplo.Core.Financeiro.Messages", typeof(Messages).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -62,20 +62,11 @@ namespace AppExemplo.Core {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} já existe. Não é possível inserir.
+        ///   Looks up a localized string similar to Contas.
         /// </summary>
-        public static string DuplicatedEntity {
+        public static string ContaEntity {
             get {
-                return ResourceManager.GetString("DuplicatedEntity", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to {0} não existe. Não é possível alterar.
-        /// </summary>
-        public static string EntityNotExists {
-            get {
-                return ResourceManager.GetString("EntityNotExists", resourceCulture);
+                return ResourceManager.GetString("ContaEntity", resourceCulture);
             }
         }
     }

@@ -56,6 +56,8 @@
       <DependentUpon>Financeiro.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\TransacaoRepository.cs" />
+    <Compile Include="Repository\ContaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -71,6 +73,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppExemplo.Data.Core\AppExemplo.Data.Core.csproj">
+      <Project>{0b20f130-30a5-4e15-bafe-ca3496e14799}</Project>
+      <Name>AppExemplo.Data.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppExemplo.Domain.Core\AppExemplo.Domain.Core.csproj">
+      <Project>{82b20d60-2c85-407b-b4e2-6c5108ce8597}</Project>
+      <Name>AppExemplo.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppExemplo.Domain.Financeiro\AppExemplo.Domain.Financeiro.csproj">
+      <Project>{de037ffe-8054-407e-b640-85169b7429af}</Project>
+      <Name>AppExemplo.Domain.Financeiro</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
