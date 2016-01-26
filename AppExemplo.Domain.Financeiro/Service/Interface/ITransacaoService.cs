@@ -10,6 +10,6 @@ namespace AppExemplo.Domain.Financeiro.Service.Interface
         IQueryable<TransacaoEntity, TransacaoFilterEntity, Guid>,
         IInsertable<TransacaoEntity>
     {
-
+        EventHandler<TransacaoEntity> TransacaoInserted { get; }
     }
 }
