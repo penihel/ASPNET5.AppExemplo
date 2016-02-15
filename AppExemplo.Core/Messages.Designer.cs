@@ -78,5 +78,14 @@ namespace AppExemplo.Core {
                 return ResourceManager.GetString("EntityNotExists", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Erro inesperando..
+        /// </summary>
+        public static string UnexpectedError {
+            get {
+                return ResourceManager.GetString("UnexpectedError", resourceCulture);
+            }
+        }
     }
 }

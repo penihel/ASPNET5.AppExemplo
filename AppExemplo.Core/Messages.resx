@@ -123,4 +123,7 @@
   <data name="EntityNotExists" xml:space="preserve">
     <value>{0} não existe. Não é possível alterar</value>
   </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Erro inesperando.</value>
+  </data>
 </root>
